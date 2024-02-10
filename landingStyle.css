@@ -1,0 +1,152 @@
+:root{
+  --brand: #B33030;
+  --body: #606060;
+  --border-radius: 4px;
+  --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+.section{
+  padding: 100px;
+  padding-bottom: 100px;
+}
+#Hero .container{
+  padding-top: 10.5rem;
+  padding: 10.5rem;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+#Hero{
+  min-height: 600px; 
+  background: url(assets/Abstract-blue-background.jpg);
+  background-position: center;
+  background-attachment: fixed;
+}
+#Hero h1,
+#Hero p{
+  color: white;
+  text-align: center;
+}
+#Hero p{
+  max-width: 500px;
+  margin: 12px auto 28px auto;
+}
+#Hero h1{
+  font-weight: 700;
+}
+#Hero .input-group{
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#Hero .input-group input{
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+}
+#Hero .input-group input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+  padding: 12px 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+.btn:hover{
+  transform: translateY(-3px);
+}
+.btn-brand{
+  background-color: teal;
+  color: white;
+}
+.btn-brand:hover{
+  color: white;
+}
+#Hero .input-group input:focus{
+  box-shadow: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: var(--brand);
+} 
+.navbar.bg-white{
+  border-bottom: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-nav .nav-link{
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+  color: var(--brand);
+}
+
+.navbar .navbar-brand h3{
+  color: red;
+}
+
+.section .content-scroll .p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.section-intro{
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.section-intro h1{
+ margin-top: 100px; 
+}
+.section-intro p{
+  max-width: 500px;
+  margin: auto;
+}
+
+.service{
+  padding: 44px 24px;
+  text-align: center;
+}
+.icon-box{
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: var(--brand);
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  margin: auto;
+}
+.service h5{
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+/*.project-wrapper{
+  height: 100%;
+}
+.project-wrapper .thumbnail{
+  width: 100%;
+  margin-bottom: 3rem; 
+}*/
+
+.about .container{
+  margin-top: 24px;
+
+}
+.about-section h1{
+  margin-top: 0px;
+  padding: 2rem;
+}
+.about-section p{
+  width: 100%;
+  font-size: 1.5rem;
+}
+.image{
+  object-fit: cover;
+} 
